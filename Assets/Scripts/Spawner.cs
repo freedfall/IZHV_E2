@@ -18,12 +18,12 @@ public class Spawner : MonoBehaviour
     /// <summary>
     /// Mean frequency of spawning as n per second.
     /// </summary>
-    public float spawnFrequencyMean = 1.0f;
+    public float spawnFrequencyMean = 1f;
     
     /// <summary>
     /// Standard deviation of the frequency of spawning as n per second.
     /// </summary>
-    public float spawnFrequencyStd = 0.5f;
+    public float spawnFrequencyStd = 0.2f;
     
     /// <summary>
     /// Position offset of the spawned obstacles.
